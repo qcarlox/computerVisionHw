@@ -1,0 +1,3 @@
+function [accumulator] = houghCircle(image,radius)
+	edgeImage = edge(image,'Canny');
+	accumulator = zeros(rows(image),collumns(image));

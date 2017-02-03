@@ -1,0 +1,208 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{verbatim}
+\lstset{
+    frame=single,
+    breaklines=true
+}
+\usepackage{geometry}
+\geometry{margin=1in}		%set margins
+
+\usepackage{graphicx}		%need for images
+\usepackage{float}			%need for arranging graphics and tables
+
+
+\title{ECG 782 HW 4}
+\date{2015-10-15}
+\author{Carlo Lopez-Tello}
+
+\begin{comment}
+
+how to paste code
+
+\lstinputlisting[language=Octave]{Q1/histEqualize.m}
+
+how to paste image
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{Q1/outputImages.png}
+	\caption{equalized images}
+\end{figure}
+
+how to start newpage
+
+\newpage
+
+how to make table
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ c | c | c }
+		filter & MSE & PSNR \\
+		none & 72.0 & 29.6 \\
+		3x3 mean filter & 32.9 & 33.0 \\
+		5x5 mean filter & 36.7 & 32.5 \\
+		3x3 median filter & 37.2 & 32.4 \\
+		5x5 median filter & 36.2 & 32.5 \\
+	\end{tabular}
+	\caption{SNR and PSNR after filtering the noisy image}
+\end{table}
+	
+
+\end{comment}
+\begin{document}
+\maketitle
+	\newpage
+	\section{Problem 10.49}
+	
+	\subsection{Maximum exposure time}
+	We are given the dimensions of the image 256 by 256 pixels. We now that the bullet takes up 10 percent of the width of the image and that the bullet is 3 cm long. This implies that the image is 30 cm by 30 cm. Thus, each pixel is .12 cm by .12 cm. The exposure time has to be fast enough so that the bullet can only move .12 cm or 1 pixel. We can calculate the exposure time using \(.12 cm = speed(exposure)\). We know the maximum speed of the bullet is 900 m/s so we can calculate the exposure time to be 1.33 us.
+	
+	\subsection{Minimum FPS}
+	We want the time between frames to be fast enough so that the bullet is always captured in two consecutive frames. In other words the bullet cannot move more than half the width of the image between frames. The problem with this limit is that we can have half a bullet in one frame if we capture exactly as the bullet hits the midpoint of the image. Thus the bullet cannot travel more than half the width minus the length of the bullet minus the two pixels from motion blur \(128 - 26 - 2 = pixels\). We can convert 100 pixels to the actual distance of 12 cm. Thus, the maximum distance that a bullet can move between frames is 12 cm. We can calculate the frame rate using \(12 cm(FPS) = speed\). For a bullet traveling at the max speed of 900 m/s, the frame rate should be higher than 7500 FPS.
+	
+	\subsection{Bullet Segmentation}
+	Assuming we have control over the scene. Meaning that we have constant illumination and background. We can use simple frame differencing between the recording and an image of the background.
+	
+	\subsection{Calculation bullet speed}
+	We can easily calculate the speed of the bullet if we know how many pixels it moved between frames. In order to do this we need to find a point corresponding to the same part of the bullet in both images. We can use a corner of the bullet and try to match it to the next frame. Once we know the number of pixel the bullet moved we can calculate the distance and divide it by the time between frames.
+	
+	
+	\section{Background Subtraction}
+	
+	\subsection{simple frame differencing}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q2/partA/partA.png}
+	\end{figure}
+	Simple frame differencing works well on the white cars but not on the black one.
+	The problem is that the color of the car is close to the color of the background.
+	\newpage
+	\subsection{static background}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q2/partB/partB.png}
+	\end{figure}
+	Using a static background works better than frame differencing on the white cars. However, it performs worse on the black car. This occurs because there is a big contrast difference between the white cars and the background.
+	
+	\subsection{static average background}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q2/partC/partC.png}
+	\end{figure}
+	The average of the frames is almost identical to the static background used before. Therefore the results are similar.
+	
+	\subsection{adaptive background}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q2/partD/partD.png}
+	\end{figure}
+	The alpha value used was .25. Using an adaptive background produces results similar to frame differencing. With the current alpha value, the procedure works better on the white cars than the black one. One could adjust the alpha value, but the results would get worse for the white cars.
+	
+	\newpage
+	\section{Gaussian Mixture Model}
+	
+	\subsection{foreground extraction}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q3/partA/partA.png}
+	\end{figure}
+	
+	\subsection{clean foreground}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q3/partB/partB.png}
+	\end{figure}
+	In order to make the object boundaries clearer I applied dilation with a square structuring element, and then erosion with a rectangular one.
+	
+	\subsection{vehicle detection}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q3/partC/partC.png}
+	\end{figure}
+	
+	
+	\section{Optical Flow}
+	
+	\subsection{lucas kanade}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q4/partA/partA.png}
+	\end{figure}
+	
+	\subsection{horn shunk}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Q4/partB/partB.png}
+	Both algorithms work better on the white cars than the black one. LK appears to produce tighter flows, meaning the flow vectors are closer together. One the black car the results look better using LK, since even when the vectors are in the wrong place they are grouped together. Using HS on the black car produces a flow diagram where the vectors are all over the place.
+		
+	\end{figure}
+	
+	\newpage
+	\section{Code}
+	
+	Part 2.A
+	partA.cpp
+	\lstinputlisting[language=Octave]{Q2/partA/partA.cpp}
+	\newpage
+	
+	partA.m
+	\lstinputlisting[language=Octave]{Q2/partA/partA.m}
+	\newpage
+	
+	Part 2.B
+	partB.cpp
+	\lstinputlisting[language=Octave]{Q2/partB/partB.cpp}
+	\newpage
+	
+	
+	partB.m
+	\lstinputlisting[language=Octave]{Q2/partB/partB.m}
+	\newpage
+	
+	Part 2.C
+	partC.cpp
+	\lstinputlisting[language=Octave]{Q2/partC/partC.cpp}
+	\newpage
+	
+	partC.m
+	\lstinputlisting[language=Octave]{Q2/partC/partC.m}
+	\newpage
+	
+	Part 2.D
+	partD.cpp
+	\lstinputlisting[language=Octave]{Q2/partD/partD.cpp}
+	\newpage
+	
+	partD.m
+	\lstinputlisting[language=Octave]{Q2/partD/partD.m}
+	\newpage
+	
+	Part 3.A
+	partA.cpp
+	\lstinputlisting[language=Octave]{Q3/partA/partA.cpp}
+	\newpage
+	
+	partA.m
+	\lstinputlisting[language=Octave]{Q3/partA/partA.m}
+	\newpage
+	
+	Part 3.B
+	partB.m
+	\lstinputlisting[language=Octave]{Q3/partB/partB.m}
+	
+	\newpage
+	cleanImage.m
+	\lstinputlisting[language=Octave]{Q3/partB/cleanImage.m}
+	\newpage
+	
+	Part 3.C
+	partC.m
+	\lstinputlisting[language=Octave]{Q3/partC/partC.m}
+	\newpage
+	
+	Part 4.A
+	partA.m
+	\lstinputlisting[language=Octave]{Q4/partA/partA.m}
+	\newpage
+	
+	Part 4.B
+	partB.m
+	\lstinputlisting[language=Octave]{Q4/partB/partB.m}
+	\newpage
+	
+	
+	
+	
+\end{document}

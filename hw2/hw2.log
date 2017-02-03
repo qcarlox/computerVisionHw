@@ -1,0 +1,529 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.19)  29 SEP 2015 03:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**\input ./hw2.tex
+(./hw2.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count87
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count88
+\lst@currlwidth=\dimen103
+\lst@column=\count89
+\lst@pos=\count90
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count91
+\lst@lineno=\count92
+\lst@maxwidth=\dimen106
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count93
+\lst@skipnumbers=\count94
+\lst@framebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks16
+\verbatim@line=\toks17
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@layoutwidth=\dimen111
+\Gm@layoutheight=\dimen112
+\Gm@layouthoffset=\dimen113
+\Gm@layoutvoffset=\dimen114
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count98
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks19
+\float@box=\box28
+\@float@everytoks=\toks20
+\@floatcapt=\box29
+) (./hw2.aux)
+\openout1 = `hw2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+\c@lstlisting=\count100
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen117
+\scratchbox=\box30
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen118
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 54.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<6.16/fig1.JPG, id=9, 2601.72pt x 1943.26pt>
+File: 6.16/fig1.JPG Graphic file (type jpg)
+ <use 6.16/fig1.JPG>
+Package pdftex.def Info: 6.16/fig1.JPG used on input line 60.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 65.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 65.
+
+<6.16/fig2.JPG, id=10, 2601.72pt x 1943.26pt>
+File: 6.16/fig2.JPG Graphic file (type jpg)
+ <use 6.16/fig2.JPG>
+Package pdftex.def Info: 6.16/fig2.JPG used on input line 78.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+ [2 <./6.16/fig1.JPG>] <6.16/fig3.JPG, id=16, 2601.72pt x 1943.26pt>
+File: 6.16/fig3.JPG Graphic file (type jpg)
+ <use 6.16/fig3.JPG>
+Package pdftex.def Info: 6.16/fig3.JPG used on input line 85.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+
+[3 <./6.16/fig2.JPG>] <6.16/fig4.JPG, id=20, 2601.72pt x 1943.26pt>
+File: 6.16/fig4.JPG Graphic file (type jpg)
+
+<use 6.16/fig4.JPG>
+Package pdftex.def Info: 6.16/fig4.JPG used on input line 92.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+ [4 <./6.16/fig3.JPG>]
+<6.16/fig5.JPG, id=24, 2601.72pt x 1943.26pt>
+File: 6.16/fig5.JPG Graphic file (type jpg)
+ <use 6.16/fig5.JPG>
+Package pdftex.def Info: 6.16/fig5.JPG used on input line 99.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+ [5 <./6.16/fig4.JPG>] <6.16/fig6.JPG, id=28, 2601.72pt x 1943.26pt>
+File: 6.16/fig6.JPG Graphic file (type jpg)
+ <use 6.16/fig6.JPG>
+Package pdftex.def Info: 6.16/fig6.JPG used on input line 106.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+
+[6 <./6.16/fig5.JPG>] [7 <./6.16/fig6.JPG>]
+<6.17/partA/washingtonDCREDinfra.png, id=36, 1029.8475pt x 1027.84pt>
+File: 6.17/partA/washingtonDCREDinfra.png Graphic file (type png)
+
+<use 6.17/partA/washingtonDCREDinfra.png>
+Package pdftex.def Info: 6.17/partA/washingtonDCREDinfra.png used on input line
+ 116.
+(pdftex.def)             Requested size: 469.75502pt x 468.82852pt.
+
+<6.17/partA/washingtonDCcolor.png, id=37, 1029.8475pt x 1027.84pt>
+File: 6.17/partA/washingtonDCcolor.png Graphic file (type png)
+
+<use 6.17/partA/washingtonDCcolor.png>
+Package pdftex.def Info: 6.17/partA/washingtonDCcolor.png used on input line 12
+3.
+(pdftex.def)             Requested size: 469.75502pt x 468.82852pt.
+ [8 <./6.17/partA/washingtonDCREDinfra.png (PNG copy)>] <6.17/partA/infra.png, 
+id=41, 617.9085pt x 616.704pt>
+File: 6.17/partA/infra.png Graphic file (type png)
+
+<use 6.17/partA/infra.png>
+Package pdftex.def Info: 6.17/partA/infra.png used on input line 130.
+(pdftex.def)             Requested size: 469.75502pt x 468.83165pt.
+ [9 <./6.17/partA/washingtonDCcolor.png (PNG copy)>]
+<6.17/partB/water.png, id=45, 1029.8475pt x 1027.84pt>
+File: 6.17/partB/water.png Graphic file (type png)
+
+<use 6.17/partB/water.png>
+Package pdftex.def Info: 6.17/partB/water.png used on input line 137.
+(pdftex.def)             Requested size: 469.75502pt x 468.82852pt.
+ [10 <./6.17/partA/infra.png (PNG copy)>]
+<6.17/partB/washingtonDCwater.png, id=49, 1029.8475pt x 1027.84pt>
+File: 6.17/partB/washingtonDCwater.png Graphic file (type png)
+
+<use 6.17/partB/washingtonDCwater.png>
+Package pdftex.def Info: 6.17/partB/washingtonDCwater.png used on input line 14
+2.
+(pdftex.def)             Requested size: 469.75502pt x 468.82852pt.
+ [11 <./6.17/partB/water.png (PNG copy)>] <6.17/partC/buildings.png, id=53, 102
+9.8475pt x 1027.84pt>
+File: 6.17/partC/buildings.png Graphic file (type png)
+
+<use 6.17/partC/buildings.png>
+Package pdftex.def Info: 6.17/partC/buildings.png used on input line 149.
+(pdftex.def)             Requested size: 469.75502pt x 468.82852pt.
+ [12 <./6.17/partB/washingtonDCwater.png (PNG copy)>] <6.17/partC/washingtonDCB
+uildings.png, id=57, 1029.8475pt x 1027.84pt>
+File: 6.17/partC/washingtonDCBuildings.png Graphic file (type png)
+
+<use 6.17/partC/washingtonDCBuildings.png>
+Package pdftex.def Info: 6.17/partC/washingtonDCBuildings.png used on input lin
+e 154.
+(pdftex.def)             Requested size: 469.75502pt x 468.82852pt.
+ [13 <./6.17/partC/buildings.png (PNG copy)>] [14 <./6.17/partC/washingtonDCBui
+ldings.png (PNG copy)>]
+<6.25/fig1.JPG, id=65, 2601.72pt x 1943.26pt>
+File: 6.25/fig1.JPG Graphic file (type jpg)
+ <use 6.25/fig1.JPG>
+Package pdftex.def Info: 6.25/fig1.JPG used on input line 162.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+
+<6.25/fig2.JPG, id=66, 2601.72pt x 1943.26pt>
+File: 6.25/fig2.JPG Graphic file (type jpg)
+ <use 6.25/fig2.JPG>
+Package pdftex.def Info: 6.25/fig2.JPG used on input line 168.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+
+<6.25/fig3.JPG, id=67, 2601.72pt x 1943.26pt>
+File: 6.25/fig3.JPG Graphic file (type jpg)
+ <use 6.25/fig3.JPG>
+Package pdftex.def Info: 6.25/fig3.JPG used on input line 172.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+ [15 <./6.25/fig1.JPG>] [16 <./6.25/fig2.JPG>] <6.25/fig5.JPG, id=74, 2601.72pt
+ x 1943.26pt>
+File: 6.25/fig5.JPG Graphic file (type jpg)
+
+<use 6.25/fig5.JPG>
+Package pdftex.def Info: 6.25/fig5.JPG used on input line 180.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+ [17 <./6.25/fig3.JPG>] [18 <./6.25/fig5.JPG>]
+<6.28/part1.png, id=81, 578.16pt x 433.62pt>
+File: 6.28/part1.png Graphic file (type png)
+ <use 6.28/part1.png>
+Package pdftex.def Info: 6.28/part1.png used on input line 188.
+(pdftex.def)             Requested size: 469.75502pt x 352.31538pt.
+ [19 <./6.28/part1.png>] [20] <Q6/fig1.JPG, id=92, 2601.72pt x 1943.26pt>
+File: Q6/fig1.JPG Graphic file (type jpg)
+ <use Q6/fig1.JPG>
+Package pdftex.def Info: Q6/fig1.JPG used on input line 220.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+
+<Q6/original.png, id=93, 4.015pt x 5.01875pt>
+File: Q6/original.png Graphic file (type png)
+ <use Q6/original.png>
+Package pdftex.def Info: Q6/original.png used on input line 226.
+(pdftex.def)             Requested size: 469.75502pt x 589.3925pt.
+
+<Q6/SE.png, id=94, 3.01125pt x 3.01125pt>
+File: Q6/SE.png Graphic file (type png)
+ <use Q6/SE.png>
+Package pdftex.def Info: Q6/SE.png used on input line 230.
+(pdftex.def)             Requested size: 469.75502pt x 471.51353pt.
+ [21 <./Q6/fig1.JPG>]
+<Q6/dilated.png, id=98, 4.015pt x 5.01875pt>
+File: Q6/dilated.png Graphic file (type png)
+ <use Q6/dilated.png>
+Package pdftex.def Info: Q6/dilated.png used on input line 234.
+(pdftex.def)             Requested size: 469.75502pt x 589.3925pt.
+ [22 <./Q6/original.png (PNG copy)>] [23 <./Q6/SE.png (PNG copy)>] [24 <./Q6/di
+lated.png (PNG copy)>] <2.23/fig1.JPG, id=108, 2601.72pt x 1943.26pt>
+File: 2.23/fig1.JPG Graphic file (type jpg)
+ <use 2.23/fig1.JPG>
+Package pdftex.def Info: 2.23/fig1.JPG used on input line 242.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+
+<2.23/fig2.JPG, id=109, 2601.72pt x 1943.26pt>
+File: 2.23/fig2.JPG Graphic file (type jpg)
+ <use 2.23/fig2.JPG>
+Package pdftex.def Info: 2.23/fig2.JPG used on input line 246.
+(pdftex.def)             Requested size: 469.75502pt x 350.86882pt.
+ [25 <./2.23/fig1.JPG>] <2.23/fig3.JPG, id=114, 1943.26pt x 1943.26pt>
+File: 2.23/fig3.JPG Graphic file (type jpg)
+ <use 2.23/fig3.JPG>
+Package pdftex.def Info: 2.23/fig3.JPG used on input line 251.
+(pdftex.def)             Requested size: 469.75502pt x 469.74258pt.
+
+<2.23/fig4.JPG, id=115, 1943.26pt x 1943.26pt>
+File: 2.23/fig4.JPG Graphic file (type jpg)
+ <use 2.23/fig4.JPG>
+Package pdftex.def Info: 2.23/fig4.JPG used on input line 255.
+(pdftex.def)             Requested size: 469.75502pt x 469.74258pt.
+ [26 <./2.23/fig2.JPG>] <2.23/fig5.JPG, id=119, 1943.26pt x 1943.26pt>
+File: 2.23/fig5.JPG Graphic file (type jpg)
+ <use 2.23/fig5.JPG>
+Package pdftex.def Info: 2.23/fig5.JPG used on input line 259.
+(pdftex.def)             Requested size: 469.75502pt x 469.74258pt.
+
+[27 <./2.23/fig3.JPG>] [28 <./2.23/fig4.JPG>] [29 <./2.23/fig5.JPG>]
+<9.5/fig1.JPG, id=129, 1943.26pt x 1943.26pt>
+File: 9.5/fig1.JPG Graphic file (type jpg)
+ <use 9.5/fig1.JPG>
+Package pdftex.def Info: 9.5/fig1.JPG used on input line 267.
+(pdftex.def)             Requested size: 469.75502pt x 469.74258pt.
+
+<9.5/fig2.JPG, id=130, 1943.26pt x 1943.26pt>
+File: 9.5/fig2.JPG Graphic file (type jpg)
+ <use 9.5/fig2.JPG>
+Package pdftex.def Info: 9.5/fig2.JPG used on input line 271.
+(pdftex.def)             Requested size: 469.75502pt x 469.74258pt.
+ [30 <./9.5/fig1.JPG>] <9.5/fig3.JPG, id=134, 1943.26pt x 1943.26pt>
+File: 9.5/fig3.JPG Graphic file (type jpg)
+ <use 9.5/fig3.JPG>
+Package pdftex.def Info: 9.5/fig3.JPG used on input line 275.
+(pdftex.def)             Requested size: 469.75502pt x 469.74258pt.
+
+[31 <./9.5/fig2.JPG>] <9.5/fig4.JPG, id=139, 1943.26pt x 1943.26pt>
+File: 9.5/fig4.JPG Graphic file (type jpg)
+
+<use 9.5/fig4.JPG>
+Package pdftex.def Info: 9.5/fig4.JPG used on input line 279.
+(pdftex.def)             Requested size: 469.75502pt x 469.74258pt.
+ [32 <./9.5/fig3.JPG>] [33 <./9.5/fig4.JPG>]
+<9.6/fig1.JPG, id=146, 1943.26pt x 2601.72pt>
+File: 9.6/fig1.JPG Graphic file (type jpg)
+ <use 9.6/fig1.JPG>
+Package pdftex.def Info: 9.6/fig1.JPG used on input line 285.
+(pdftex.def)             Requested size: 469.75502pt x 628.91156pt.
+
+Overfull \vbox (12.1843pt too high) has occurred while \output is active []
+
+
+[34 <./9.6/fig1.JPG>] <9.6/fig2.JPG, id=150, 1943.26pt x 2601.72pt>
+File: 9.6/fig2.JPG Graphic file (type jpg)
+
+<use 9.6/fig2.JPG>
+Package pdftex.def Info: 9.6/fig2.JPG used on input line 289.
+(pdftex.def)             Requested size: 469.75502pt x 628.91156pt.
+
+Overfull \vbox (5.93987pt too high) has occurred while \output is active []
+
+
+[35 <./9.6/fig2.JPG>] <9.6/fig3.JPG, id=154, 1943.26pt x 2601.72pt>
+File: 9.6/fig3.JPG Graphic file (type jpg)
+
+<use 9.6/fig3.JPG>
+Package pdftex.def Info: 9.6/fig3.JPG used on input line 293.
+(pdftex.def)             Requested size: 469.75502pt x 628.91156pt.
+
+Overfull \vbox (5.93987pt too high) has occurred while \output is active []
+
+
+[36 <./9.6/fig3.JPG>] <9.6/fig4.JPG, id=158, 1943.26pt x 2601.72pt>
+File: 9.6/fig4.JPG Graphic file (type jpg)
+
+<use 9.6/fig4.JPG>
+Package pdftex.def Info: 9.6/fig4.JPG used on input line 297.
+(pdftex.def)             Requested size: 469.75502pt x 628.91156pt.
+
+Overfull \vbox (5.93987pt too high) has occurred while \output is active []
+
+
+[37 <./9.6/fig4.JPG>] <9.19/fig1.JPG, id=163, 1943.26pt x 2601.72pt>
+File: 9.19/fig1.JPG Graphic file (type jpg)
+
+<use 9.19/fig1.JPG>
+Package pdftex.def Info: 9.19/fig1.JPG used on input line 304.
+(pdftex.def)             Requested size: 469.75502pt x 628.91156pt.
+ [38] [39 <./9.19/fig1.JPG>]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(./6.17/partA/partA.m) (./6.17/partB/partB.m
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 7.
+) (./6.17/partC/partC.m) [40] (./6.28/part1.m) (./Q6/dilate.m) [41] (./hw2.aux)
+ ) 
+Here is how much of TeX's memory you used:
+ 4097 strings out of 495028
+ 58340 string characters out of 6181497
+ 318729 words of memory out of 5000000
+ 7235 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 37i,6n,43p,472b,1535s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb>
+Output written on hw2.pdf (41 pages, 46181750 bytes).
+PDF statistics:
+ 210 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+

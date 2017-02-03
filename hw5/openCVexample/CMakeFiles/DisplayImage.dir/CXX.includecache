@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Desktop/Dropbox/linuxPC/computerVision/hw5/Q2/DisplayImage.cpp
+stdio.h
+-
+opencv2/opencv.hpp
+-
+
